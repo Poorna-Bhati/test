@@ -1,0 +1,278 @@
+[
+  {
+    "file": "freestyle\\modules\\parameter_editor.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\modules\\freestyle\\chainingiterators.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\modules\\freestyle\\functions.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\modules\\freestyle\\predicates.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\modules\\freestyle\\shaders.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\modules\\freestyle\\types.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\modules\\freestyle\\utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\modules\\freestyle\\__init__.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\anisotropic_diffusion.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\apriori_and_causal_density.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\apriori_density.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\backbone_stretcher.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\blueprint_circles.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\blueprint_ellipses.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\blueprint_squares.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\cartoon.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\contour.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\curvature2d.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\external_contour.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\external_contour_sketchy.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\external_contour_smooth.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\haloing.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\ignore_small_occlusions.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\invisible_lines.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\japanese_bigbrush.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\long_anisotropically_dense.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\multiple_parameterization.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\nature.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\near_lines.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\occluded_by_specific_object.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\polygonalize.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\qi0.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\qi0_not_external_contour.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\qi1.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\qi2.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\sequentialsplit_sketchy.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\sketchy_multiple_parameterization.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\sketchy_topology_broken.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\sketchy_topology_preserved.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\split_at_highest_2d_curvatures.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\split_at_tvertices.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\suggestive.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\thickness_fof_depth_discontinuity.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\tipremover.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\tvertex_remover.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "freestyle\\styles\\uniformpruning_zsort.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  }
+]
