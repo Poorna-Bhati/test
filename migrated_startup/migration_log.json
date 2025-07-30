@@ -1,0 +1,500 @@
+[
+  {
+    "file": "startup\\keyingsets_builtins.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\nodeitems_builtins.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\add_mesh_torus.py",
+    "warnings": [],
+    "api_suggestions": [
+      "Replace the deprecated usage of EnumProperty as follows:\n\n```python\nimport bpy\n\n# Old (deprecated in Blender 4.4 and earlier):\n# mode = bpy.props.EnumProperty(\n#     name=\"Mode\",\n#     description=\"Choose mode\",\n#     items=[('A', \"A\", \"Mode A\"), ('B', \"B\", \"Mode B\")]\n# )\n\n# Blender 4.4+ compatible:\nmode: bpy.props.EnumProperty(\n    name=\"Mode\",\n    description=\"Choose mode\",\n    items=[\n        ('A', \"A\", \"Mode A\"),\n        ('B', \"B\", \"Mode B\")\n    ]\n)\n```\n\nKey changes:\n- Use **type annotations** (e.g., mode: bpy.props.EnumProperty(...)) instead of assignment (mode = ...).\n- This is now required for all property definitions in Blender 2.8+ and remains the standard in Blender 4.4[1]."
+    ],
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\anim.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\clip.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\console.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\file.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\freestyle.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\image.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\mask.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\mesh.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\node.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\object.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\object_align.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\object_quick_effects.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\object_randomize_transform.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\presets.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\rigidbody.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\screen_play_rendered_anim.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\sequencer.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\uvcalc_follow_active.py",
+    "warnings": [],
+    "api_suggestions": [
+      "Replace the deprecated usage of EnumProperty as follows for Blender 4.4 compatibility:\n\n```python\nimport bpy\n\n# Instead of:\n# mode = bpy.props.EnumProperty(\n\n# Use:\nmode: bpy.props.EnumProperty(\n    name=\"Mode\",\n    description=\"Choose a mode\",\n    items=[\n        ('OPTION_A', \"Option A\", \"Description for option A\"),\n        ('OPTION_B', \"Option B\", \"Description for option B\"),\n        # Add more options as needed\n    ]\n)\n```\n\nKey changes:\n- Use **type annotations** (the colon syntax) instead of assignment for class properties.\n- Ensure all required keyword arguments (`name`, `description`, `items`) are provided explicitly[4].\n- The `items` argument must be a list of tuples or a callable returning such a list[4].\n\nIf you are defining this inside a class, it should look like:\n\n```python\nclass MyClass(bpy.types.PropertyGroup):\n    mode: bpy.props.EnumProperty(\n        name=\"Mode\",\n        description=\"Choose a mode\",\n        items=[\n            ('OPTION_A', \"Option A\", \"Description for option A\"),\n            ('OPTION_B', \"Option B\", \"Description for option B\"),\n        ]\n    )\n```\n\nThis syntax is required for Blender 2.80+ and is fully compatible with Blender 4.4[4]."
+    ],
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\uvcalc_lightmap.py",
+    "warnings": [],
+    "api_suggestions": [
+      "```python\nPREF_CONTEXT: bpy.props.EnumProperty(\n    name=\"Context\",\n    description=\"Choose the context\",\n    items=[\n        ('SCENE', \"Scene\", \"Scene context\"),\n        ('OBJECT', \"Object\", \"Object context\"),\n        # Add other enum items as needed\n    ],\n    default='SCENE'\n)\n```\n**Key changes:**\n- Use a type annotation (`PREF_CONTEXT:`) instead of assignment (`=`) for class properties in Blender 4.x.\n- All parameters (`name`, `description`, `items`, `default`) must be explicitly specified.\n- The `items` parameter must be a list of tuples, each tuple containing at least an identifier, a name, and a description[4][5].\n- Remove any deprecated or positional-only usage from Blender 2.79.\n\nReplace or expand the `items` list as appropriate for your add-on."
+    ],
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\uvcalc_smart_project.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\vertexpaint_dirt.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\view3d.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\wm.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\__init__.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_operators\\bmesh\\find_adjacent.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_animviz.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_constraint.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_armature.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_bone.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_camera.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_curve.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_empty.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_lamp.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_lattice.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_mesh.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_metaball.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_modifier.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_data_speaker.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_freestyle.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_game.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_grease_pencil_common.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_mask_common.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_material.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_object.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_paint_common.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_particle.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_physics_cloth.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_physics_common.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_physics_dynamicpaint.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_physics_field.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_physics_fluid.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_physics_rigidbody.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_physics_rigidbody_constraint.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_physics_smoke.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_physics_softbody.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_render.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_render_layer.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_scene.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_texture.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\properties_world.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_clip.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_console.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_dopesheet.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_filebrowser.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_graph.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_image.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_info.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_logic.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_nla.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_node.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_outliner.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_properties.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_sequencer.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_text.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_time.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_userpref.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_view3d.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\space_view3d_toolbar.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "startup\\bl_ui\\__init__.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  }
+]
