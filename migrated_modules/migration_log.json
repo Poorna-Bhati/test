@@ -1,0 +1,296 @@
+[
+  {
+    "file": "modules\\addon_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\animsys_refactor.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\blend_render_info.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_app_template_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpyml.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpyml_ui.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_restrict_state.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_types.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\console_python.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\console_shell.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\graphviz_export.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\keyingsets_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\nodeitems_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\progress_report.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\rna_info.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\rna_keymap_ui.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\rna_prop_ui.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\rna_xml.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\sys_info.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_app_override\\helpers.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_app_override\\__init__.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_i18n_utils\\bl_extract_messages.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_i18n_utils\\merge_po.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_i18n_utils\\settings.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_i18n_utils\\settings_user.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_i18n_utils\\utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_i18n_utils\\utils_languages_menu.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_i18n_utils\\utils_rtl.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_i18n_utils\\utils_spell_check.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_i18n_utils\\__init__.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bl_previews_utils\\bl_previews_render.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy\\ops.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy\\path.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy\\__init__.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy\\utils\\previews.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy\\utils\\__init__.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_extras\\anim_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_extras\\image_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_extras\\io_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_extras\\keyconfig_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_extras\\mesh_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_extras\\object_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_extras\\view3d_utils.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\bpy_extras\\__init__.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\console\\complete_calltip.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\console\\complete_import.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\console\\complete_namespace.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\console\\intellisense.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "modules\\console\\__init__.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  }
+]
