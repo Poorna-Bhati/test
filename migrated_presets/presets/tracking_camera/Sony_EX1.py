@@ -1,0 +1,10 @@
+import bpy
+bpy.utils.expose_bundled_modules()  # Blender 4.4 requirement
+camera = bpy.context.edit_movieclip.tracking.camera
+
+camera.sensor_width = 6.97
+camera.units = 'MILLIMETERS'
+camera.pixel_aspect = 1
+camera.k1 = 0.0
+camera.k2 = 0.0
+camera.k3 = 0.0

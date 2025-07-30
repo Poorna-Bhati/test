@@ -1,0 +1,902 @@
+[
+  {
+    "file": "presets\\camera\\1__colon__2.3_inch.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\1__colon__2.5_inch.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\2__colon__3_inch.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\4__colon__3_inch.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Arri_Alexa.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Blackmagic_Cinema_Camera.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Blackmagic_Pocket_Cinema_Camera.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Blackmagic_Production_Camera_4K.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Blender.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Canon_1100D.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Canon_APS-C.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Canon_APS-H.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Canon_C300.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Full_Frame_35mm_Camera.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\GoPro_Hero3_Black.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\GoPro_Hero3_Silver.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\GoPro_Hero3_White.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\iPhone_4.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\iPhone_4S.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\iPhone_5.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Nexus_5.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Nikon_D3100.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Nikon_DX.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Panasonic_AG-HVX200.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Panasonic_LX2.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Red_Epic.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Red_One_2K.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Red_One_3K.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Red_One_4K.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Samsung_Galaxy_S3.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Samsung_Galaxy_S4.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Sony_A55.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Sony_EX1.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Sony_F65.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Super_16_Film.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\camera\\Super_35_Film.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cloth\\cotton.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cloth\\denim.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cloth\\leather.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cloth\\rubber.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cloth\\silk.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cycles\\integrator\\direct_light.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cycles\\integrator\\full_global_illumination.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cycles\\integrator\\limited_global_illumination.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cycles\\sampling\\final.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\cycles\\sampling\\preview.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\ffmpeg\\DVD_(note_colon__this_changes_render_resolution).py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\ffmpeg\\h264_in_Matroska.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\ffmpeg\\h264_in_Matroska_for_scrubbing.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\ffmpeg\\h264_in_MP4.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\ffmpeg\\ogg_theora.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\ffmpeg\\xvid.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\fluid\\honey.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\fluid\\oil.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\fluid\\water.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\framerate\\23.98.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\framerate\\24.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\framerate\\25.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\framerate\\29.97.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\framerate\\30.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\framerate\\50.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\framerate\\59.94.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\framerate\\60.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\framerate\\Custom.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\hair_dynamics\\default.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\interaction\\3dsmax.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\interaction\\blender.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\interaction\\maya.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\keyconfig\\3dsmax.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\keyconfig\\maya.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\operator\\wm.collada_export\\sl_plus_open_sim_rigged.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\operator\\wm.collada_export\\sl_plus_open_sim_static.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\DVCPRO_HD_1080p.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\DVCPRO_HD_720p.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\HDTV_1080p.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\HDTV_720p.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\HDV_1080p.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\HDV_NTSC_1080p.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\HDV_PAL_1080p.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\TV_NTSC_16_colon_9.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\TV_NTSC_4_colon_3.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\TV_PAL_16_colon_9.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\render\\TV_PAL_4_colon_3.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\safe_areas\\14_colon_9_in_16_colon_9.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\safe_areas\\16_colon_9.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\safe_areas\\4_colon_3_in_16_colon_9.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\apple.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\chicken.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\cream.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\ketchup.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\marble.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\potato.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\skim_milk.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\skin1.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\skin2.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sss\\whole_milk.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sunsky\\classic.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sunsky\\desert.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\sunsky\\mountain.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\1__colon__2.3_inch.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\1__colon__2.5_inch.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\2__colon__3_inch.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\4__colon__3_inch.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Arri_Alexa.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Blackmagic_Cinema_Camera.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Blackmagic_Pocket_Cinema_Camera.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Blackmagic_Production_Camera_4K.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Blender.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Canon_1100D.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Canon_APS-C.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Canon_APS-H.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Canon_C300.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Full_Frame_35mm_Camera.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\GoPro_Hero3_Black.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\GoPro_Hero3_Silver.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\GoPro_Hero3_White.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\iPhone_4.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\iPhone_4S.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\iPhone_5.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Nexus_5.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Nikon_D3100.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Nikon_DX.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Panasonic_AG-HVX200.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Panasonic_LX2.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Red_Epic.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Red_One_2K.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Red_One_3K.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Red_One_4K.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Samsung_Galaxy_S3.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Samsung_Galaxy_S4.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Sony_A55.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Sony_EX1.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Sony_F65.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Super_16.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_camera\\Super_35.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_settings\\blurry_footage.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_settings\\default.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_settings\\fast_motion.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_settings\\planar.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_track_color\\default.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_track_color\\far_plane.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_track_color\\near_plane.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\tracking_track_color\\object.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\units_length\\centimeters.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\units_length\\feet.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\units_length\\inches.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\units_length\\kilometers.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\units_length\\meters.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\units_length\\miles.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  },
+  {
+    "file": "presets\\units_length\\millimeters.py",
+    "warnings": [],
+    "api_suggestions": null,
+    "errors": []
+  }
+]

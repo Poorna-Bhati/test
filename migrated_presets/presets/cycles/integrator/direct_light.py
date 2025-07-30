@@ -1,0 +1,14 @@
+import bpy
+bpy.utils.expose_bundled_modules()  # Blender 4.4 requirement
+cycles = bpy.context.scene.cycles
+
+cycles.max_bounces = 8
+cycles.min_bounces = 8
+cycles.caustics_reflective = False
+cycles.caustics_refractive = False
+cycles.diffuse_bounces = 0
+cycles.glossy_bounces = 1
+cycles.transmission_bounces = 2
+cycles.volume_bounces = 0
+cycles.transparent_min_bounces = 8
+cycles.transparent_max_bounces = 8
